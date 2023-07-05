@@ -12,6 +12,6 @@ $ git push
 
 Username for 'https://github.com': nom_username
 
-Password for 'https://nom_username@github.com': LE_TOKEN
+Password for 'https://nom_username@github.com': LE_TOKEN 
 
 
