@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>TP1 DIW page1 variante</title>
+	<link rel="icon"  href="iconeweb.ico">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style>
+        @font-face {
+        font-family: "mapolice1";
+        src: url("assets/Satisfy-Regular.ttf") format("truetype");
+        }
+        .mapolice1 {
+        font-family: mapolice1;
+        }
+        @font-face {
+        font-family: "mapolice2";
+        src: url("assets/Creepster-Regular.ttf") format("truetype");
+        }
+        .mapolice2 {
+        font-family: mapolice2;
+        }
+    </style>
+</head>
+
+<body>
+<p>
+	<a href="page2.html">
+		<img src="linux.jpg" alt="mon image devrait apparaitre" title="sympa linux!" style="width: 250px;height: 200px">
+	</a>
+</p>
+<hr>
+<p>
+ <p class="text-warning  bg-success text-center mapolice1">Mon Texte</p>
+ <p class="text-warning  bg-success text-center mapolice2">Mon Texte</p>
+
+
+	<a href="page3.html" class="btn btn-success text-info m-2 border-info" >Lien vers page3 </a>
+    
+	<br>
+	<a href="http://cours-info.iut-bm.univ-fcomte.fr" title="lien sur les cours TDs TPs du département informatique" 
+             class="btn btn-warning text-danger m-4 p-2" >
+		Cours - TD - TP
+	</a>
+</p>
+
+<button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
+
+<script src="bootstrap/js/popper.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+
+
+<script> <!--https://getbootstrap.com/docs/5.2/components/popovers/-->
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+</script>
+
+</body>
+</html>
