@@ -1,18 +1,17 @@
-$ git clone https://github.com/amillet-iut90/cours-info.git
+$ git clone https://github.com/nom_username/nom_repository.git
 
-$ cd cours-info
+$ cd nom_repository
 
-$ git add arnaud.md
+$ git add fichier.html
 
-$ git commit -m 'Ajout arnaud.md.'
-
+$ git commit -m 'Ajout fichier.html'
 
 $ git config credential.helper store
 
 $ git push
 
-Username for 'https://github.com': amillet-iut90
+Username for 'https://github.com': nom_username
 
-Password for 'https://amillet-iut90@github.com': LE_TOKEN
+Password for 'https://nom_username@github.com': LE_TOKEN
 
 
